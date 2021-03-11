@@ -33,6 +33,11 @@ Navigate to [localhost:5000](http://localhost:5000). You should see two maps.
 
 ![alt text](screenshots/main.png "Screenshot of app running in Chrome.")
 
+"Brian, those maps look... remarkably similar!"
+
+Yes, don't they! An earlier version used OpenStreetMap in OpenLayers but I thought this is a better demo. It shows that it takes about the same effort to use an Esri map in
+OpenLayers as it does in Esri's API. (That is, it's easy.)
+
 ## Deploying to the web
 
 The Svelte people suggest using Vercel.com or Surge.sh;
