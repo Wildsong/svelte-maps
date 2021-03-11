@@ -34,34 +34,19 @@ Navigate to [localhost:5000](http://localhost:5000). You should see a street map
 
 ## Deploying to the web
 
-I have not looked at this section yet; this is from the template.
+The Svelte people suggest using Vercel.com or Surge.sh;
+probably both fine ideas but I want to keep the content in my own servers.
+To me the bundler is to make deployment simple, so "copy" is a good way to deploy too.
 
-### With [Vercel](https://vercel.com)
-
-Install `vercel` if you haven't already:
-
-```bash
-npm install -g vercel
-```
-
-Then, from within your project folder:
-
-```bash
-cd public
-vercel deploy --name my-project
-```
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
+I think for me it's simpler, like perhaps
 
 ```bash
 npm run build
-surge public my-project.surge.sh
+rsync -av public/* cc-testmaps:docker/nginx/html
+```
+
+I have that automated with
+
+```bash
+npm run deploy
 ```
