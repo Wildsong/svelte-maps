@@ -5,7 +5,8 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public"
+    "start": "sirv public",
+    "deploy": "rollup -c; rsync -av public/* cc-testmaps:docker/nginx/html"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
