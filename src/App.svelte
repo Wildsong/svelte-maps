@@ -9,7 +9,6 @@
 	<div class="mapcontainer">
 		<OpenlayersMap center={astoria} zoom={zoom}/>
 		<EsriMap center={astoria} zoom={zoom} /> 
-		<br/>
 	</div>
 
 	<p>This is a sample app built with the Svelte framework 
