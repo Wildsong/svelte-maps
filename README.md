@@ -29,16 +29,17 @@ Then start [Rollup](https://rollupjs.org):
 npm run dev
 ```
 
-Navigate to [localhost:5000](http://localhost:5000). You should see a street map. Edit a component file in `src`, save it, and in dev mode your page should update.
+Navigate to [localhost:5000](http://localhost:5000). You should see two maps. 
 
+![alt text](screenshots/main.png "Screenshot of app running in Chrome.")
 
 ## Deploying to the web
 
 The Svelte people suggest using Vercel.com or Surge.sh;
 probably both fine ideas but I want to keep the content in my own servers.
-To me the bundler is to make deployment simple, so "copy" is a good way to deploy too.
+To me the bundler is there to make deployment simple, so "copy" is a good way to deploy too.
 
-I think for me it's simpler, like perhaps
+I think for me it's perhaps just an rsync command.
 
 ```bash
 npm run build
@@ -50,3 +51,6 @@ I have that automated with
 ```bash
 npm run deploy
 ```
+
+You of course, would have to edit package.json to change the rsync
+command because you can't deploy to my server.
