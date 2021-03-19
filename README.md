@@ -42,8 +42,8 @@ Navigate to [localhost:5000](http://localhost:5000). You should see two maps.
 
 "Brian, those maps look... remarkably similar!"
 
-Yes, don't they! An earlier version used OpenStreetMap in OpenLayers but I thought this is a better demo. It shows that it takes about the same effort to use an Esri map in
-OpenLayers as it does in Esri's API. (That is, it's easy.)
+Yes, don't they! An earlier version used OpenStreetMap in OpenLayers and Esri Streets in Esri but I thought this is a better demo. It shows that it takes about the same effort to use an Esri map in
+OpenLayers as it does in Esri's API. (That is, it's easy.) After getting the basemap to load I added the Astoria map from David Rumsey maps using XYZ tiles. Again, the level of effort to get that service in there is about the same for each API.
 
 ## Deploying to the web
 
