@@ -33,6 +33,7 @@
 	}
 	.mapcontainer {
 		display: flex;
+		margin: 2px;
 	}
 	@media (min-width: 640px) {
 		main {

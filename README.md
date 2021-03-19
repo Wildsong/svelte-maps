@@ -1,10 +1,11 @@
 # svelte-maps
 
-I followed along with a presentation from the Esri Dev Summit
-and built this Esri JSAPI example map app. Then I added OpenLayers for good measure.
+This is a demonstration using the Svelte framework
+with both the Esri JSAPI 4 and OpenLayers 6. It shows two identical maps side-by-side.
 
-It does nothing fancy. I want to link the extent together but that's not done yet.
+It does nothing fancy. I want to link the extent together but that's not done yet. (Scrolling one updates the other, etc.)
 
+I was inspired by a presentation from the Esri Dev Summit.
 The original presentation is on YouTube, <https://www.youtube.com/watch?v=Y_EVrWtBnow>
 
 The project was created from the standard svelte project template at <https://github.com/sveltejs/template>.
@@ -13,6 +14,12 @@ The project was created from the standard svelte project template at <https://gi
 
 * <https://esri-svelte-basemaps-example.now.sh/>
 * <https://github.com/jwasilgeo/esri-svelte-basemaps-example>
+
+JSAPI reference: <https://developers.arcgis.com/javascript/latest/api-reference/>
+
+OpenLayers reference: <>
+
+Blog: <https://odoe.net/blog/svelte-with-the-arcgis-api-for-javascript/>
 
 ## Get started
 
