@@ -3,7 +3,7 @@
 This is a demonstration using the Svelte framework
 with both the Esri JSAPI 4 and OpenLayers 6. It shows two identical maps side-by-side.
 
-It does nothing fancy. I want to link the extent together but that's not done yet. (Scrolling one updates the other, etc.)
+There are no special features; I want to link the extent together but that's not done yet. (Scrolling one updates the other, etc.)
 
 I was inspired by a presentation from the Esri Dev Summit.
 The original presentation is on YouTube, <https://www.youtube.com/watch?v=Y_EVrWtBnow>
