@@ -24,14 +24,17 @@ Blog: <https://odoe.net/blog/svelte-with-the-arcgis-api-for-javascript/>
 
 ## Get started
 
-Install the dependencies.
+Install the dependencies. Installing parcel globally seems to work better for me, at least on Windows. 
+PATH issue? Whatever. It works, installing in the devDependencies sometimes fails.
 
 ```bash
+npm install parcel -g
 cd svelte-app
 npm install
 ```
 
 Then start it. This should automatically open a browser and connect it to http://localhost:1234
+If not something is wrong, maybe you don't have Chrome or something.
 
 ```bash
 npm start
@@ -41,8 +44,16 @@ You should see two maps.
 
 ![alt text](screenshots/main.png "Screenshot of app running in Chrome.")
 
-The map you see is loading from Rumsey maps. There is an Esri basemap underneath each.
+The map you see on top is loading from Rumsey maps. 
+There is an Esri basemap underneath each. Pan away from Astoria to see the basemap.
 After getting the basemap to load I added the Astoria map from David Rumsey maps using XYZ tiles. 
+
+## Parcel vs Rollup
+
+I bonded with Parcel when I was learning React and I find it very very easy to use, 
+so I converted this project from rollup to parcel. Is it faster? Whatever, they both
+work, and I have enough to learn with Svelte without having to add a new bundler
+at the same time so there you have it.
 
 ## Deploying to the web
 
